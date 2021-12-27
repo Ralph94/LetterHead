@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'EB Garamond', serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+  background-image: url("C:/Users/Raffp/Desktop/letterHead/images/bg.jpg");
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* background images, border */
+
+article {
+  background: url(top-image.png) no-repeat left top;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.2)),
+              url(top-image.png) no-repeat left top,
+              url(bottom-image.png) no-repeat left bottom;
+  background-color: white;
+  border-top: 1mm solid red;
+  border-bottom: 1mm solid red;
+}
+
+h1 {
+  background-image: url(logo.png);
+  /* filter: drop-shadow(3px 3px 3px black); */
+  border-radius: 64px;
+  box-shadow: 3px 3px 3px black;
+}
+
+
+img.P1img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+
+}
+
+article {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+address {
+    position: absolute;
+    bottom: 8mm;
+    right: 20mm;
+    color: white;
+}
+
+p.text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    font-size: 16px;
+    width: 100mm;
+    line-height: 1.5;
+    color: thistle;
+    
+    
+
+}
+
+#mainHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #ccc;
+    background-image: url("C:/Users/Raffp/Desktop/letterHead/images/p2.jpeg");
+    background-size: fit-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-top: 1mm solid red;
+    border-bottom: 1mm solid red;
+}
+
+
+#header1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #402F1D;
+    color: #000100;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.6em;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+
+}
+
+#header2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    background-color: #402F1D;
+    color: #d4af37;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.6em;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+}
+
